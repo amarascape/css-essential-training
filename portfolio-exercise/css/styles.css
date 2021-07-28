@@ -1,11 +1,8 @@
 :root {
-  --main-text-color: #1916d9;
-  --profile-bg-color: #d2f2fb;
-  --projects-bg-color: #E1BBC9;
-  --work-experience-bg-color: #E8E288;
-  --education-bg-color: #F5CB5C;
-  --contact-info-bg-color: #EDF67D;
-  --link-color: #353503;
+  --primary-color: #1916d9;
+  --secondary-color: #d2f2fb;
+  --primary-link-color: #000;
+  --secondary-link-color: #fff;
 
 }
 
@@ -19,27 +16,31 @@ body {
 img {
   width: 300px;
 }
-
-a {
-  color: var(--link-color);
-}
-
 a:hover {
-  color: var(--link-color);
   /* remove default underline */
   text-decoration: none;
 }
 
 /* Profile
 ------------------------------------- */
-.profile{
-  background-color: var(--profile-bg-color);
+.profile {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.profile a {
+  color: var(--primary-link-color);
 }
 
 /* Projects
 ------------------------------------- */
-.projects{
-  background-color: var(--projects-bg-color);
+.projects {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.projects a {
+  color: var(--secondary-link-color);
 }
 
 .btn {
@@ -47,7 +48,7 @@ a:hover {
   https://getbootstrap.com/docs/5.0/components/buttons/ */
   }
 
-.btn-primary {
+.btn-secondary {
   /* bootstrap class
   https://getbootstrap.com/docs/5.0/components/buttons/ */
 }
@@ -55,17 +56,32 @@ a:hover {
 /* Work Experience
 ------------------------------------- */
 .work-experience{
-  background-color: var(--work-experience-bg-color);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.work-experience a {
+  color: var(--primary-link-color);
 }
 
 /* Education
 ------------------------------------- */
-.education{
-  background-color: var(--education-bg-color);
+.education {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.education a {
+  color: var(--secondary-link-color);
 }
 
 /* Contact Info
 ------------------------------------- */
-.contact-info{
-  background-color: var(--contact-info-bg-color);
+.contact-info {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.contact-info a {
+  color: var(--primary-link-color);
 }
