@@ -32,6 +32,10 @@ a:hover {
   color: var(--primary-link-color);
 }
 
+.profile .lastParagraph {
+  /* margin-bottom: 0; */
+}
+
 /* Projects
 ------------------------------------- */
 .projects {
