@@ -1,3 +1,10 @@
+/* base styles */
+body {
+  background-color: #d2f2fb;
+  color: #1916d9;
+  font-family: 'Montserrat', sans-serif;
+}
+
 img {
   width: 300px;
 }
