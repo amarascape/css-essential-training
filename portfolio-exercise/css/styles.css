@@ -90,3 +90,17 @@ a:hover {
 .contact-info a {
   color: var(--primary-link-color);
 }
+
+/* Construction Styles
+------------------------------------- */
+html {
+  border: #ff33cc 3px solid;
+}
+
+body {
+  border: yellow 3px solid;
+}
+
+h1, p, section, ul, .btn, img {
+  border: lime 3px solid;
+}
