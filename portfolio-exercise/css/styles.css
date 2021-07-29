@@ -94,13 +94,14 @@ a:hover {
 /* Construction Styles
 ------------------------------------- */
 html {
-  border: #ff33cc 3px solid;
+  border: #ff33cc 5px solid;
 }
 
 body {
-  border: yellow 3px solid;
+  border: yellow 5px solid;
 }
 
-h1, p, section, ul, .btn, img {
+h1, h2, h3, p, section, ul, .btn, img {
   border: lime 3px solid;
+  background-color: hsla(120, 100%, 50%, 0.2);
 }
