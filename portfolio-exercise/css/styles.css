@@ -17,21 +17,28 @@ img {
   width: 300px;
 }
 a:hover {
-  /* remove default underline */
-  text-decoration: none;
+  text-decoration: none; /* remove default underline */
 }
 
-.endOfSection {
-  margin-bottom: 0;
-}
-
+/* in effect, this is the actual content for a section of the page.
+it should be center aligned and not span the entire width of the page.  */
 .content-wrap {
-  /* in effect, this is the actual content for
-  a section of the page. it should be center
-  aligned and not span the entire width
-  of the page.  */
   width: 900px;
   margin: 0 auto;
+}
+
+/* remove the whitespace between some sections on
+the page.*/
+.content-wrap {
+  padding: 60px 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1, h2 {
+  font-family: 'Lemon', cursive;
 }
 
 /* Profile
@@ -44,7 +51,6 @@ a:hover {
 .profile a {
   color: var(--primary-link-color);
 }
-
 
 /* Projects
 ------------------------------------- */
