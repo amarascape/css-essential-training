@@ -25,6 +25,15 @@ a:hover {
   margin-bottom: 0;
 }
 
+.content-wrap {
+  /* in effect, this is the actual content for
+  a section of the page. it should be center
+  aligned and not span the entire width
+  of the page.  */
+  width: 900px;
+  margin: 0 auto;
+}
+
 /* Profile
 ------------------------------------- */
 .profile {
