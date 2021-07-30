@@ -62,6 +62,18 @@ h2 {
   font-size: 3rem;
 }
 
+.item-details h3 + p {
+  /* this combination is used in Work Experience
+  and education */
+  font-style: italic;
+}
+
+.item-details h3 + p {
+  /* this combination is used in Work Experience
+  and Education */
+  margin: 0;
+}
+
 /* Profile
 ------------------------------------- */
 .profile {
