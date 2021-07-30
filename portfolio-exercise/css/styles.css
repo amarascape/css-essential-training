@@ -39,6 +39,15 @@ the page.*/
 
 h1, h2 {
   font-family: 'Lemon', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 6.25rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 /* Profile
