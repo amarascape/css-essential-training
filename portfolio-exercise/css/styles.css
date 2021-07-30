@@ -81,7 +81,7 @@ h2 {
   background-color: var(--primary-color);
 }
 
-.projects a {
+.projects .link {
   color: var(--secondary-link-color);
 }
 
@@ -90,7 +90,7 @@ h2 {
   https://getbootstrap.com/docs/5.0/components/buttons/ */
   }
 
-.btn-secondary {
+.btn-dark {
   /* bootstrap class
   https://getbootstrap.com/docs/5.0/components/buttons/ */
 }
@@ -117,6 +117,12 @@ h2 {
 
 .work-experience a {
   color: var(--primary-link-color);
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /*second column will be twice the size of the first column */
+  column-gap: 16px;
 }
 
 /* Education
