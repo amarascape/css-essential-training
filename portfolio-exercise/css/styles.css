@@ -117,7 +117,16 @@ h2 {
 .project-item {
   /* overflow: hidden; */
   display: flow-root;
+}
+
+.projects.divider section {
   border-bottom: 1px dashed var(--secondary-color);
+  padding: 2rem 0;
+}
+
+.projects.divider section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 /* Work Experience
@@ -135,6 +144,16 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 2fr; /*second column will be twice the size of the first column */
   column-gap: 16px;
+}
+
+.work-experience.divider section {
+  border-bottom: 1px dashed var(--primary-color);
+  padding: 2rem 0;
+}
+
+.work-experience.divider section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 /* Education
@@ -178,7 +197,7 @@ h2 {
 
 /* Construction Styles
 ------------------------------------- */
-html {
+/* html {
   border: #ff33cc 5px solid;
 }
 
@@ -189,4 +208,4 @@ body {
 h1, h2, h3, p, section, ul, .btn, img, header, footer {
   border: lime 3px solid;
   background-color: hsla(120, 100%, 50%, 0.2);
-}
+} */
