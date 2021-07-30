@@ -67,6 +67,7 @@ h2 {
 .profile {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  text-align: center;
 }
 
 .profile a {
@@ -134,11 +135,28 @@ h2 {
 .contact-info {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  text-align: center;
 }
 
 .contact-info a {
   color: var(--primary-link-color);
 }
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list.flex-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  display: inline-block; /* makes it so the padding gives the user more space to click/tap */
+  padding: 1rem;
+}
+
 
 /* Construction Styles
 ------------------------------------- */
@@ -150,7 +168,7 @@ body {
   border: yellow 5px solid;
 }
 
-h1, h2, h3, p, section, ul, .btn, img {
+h1, h2, h3, p, section, ul, .btn, img, header, footer {
   border: lime 3px solid;
   background-color: hsla(120, 100%, 50%, 0.2);
 }
