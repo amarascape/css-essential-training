@@ -3,8 +3,19 @@
   --secondary-color: #230133;
   --primary-link-color: #fff;
   --secondary-link-color: #000;
-
 }
+
+/* Box Model Fix
+https://css-tricks.com/box-sizing/#:~:text=Universal%20Box%20Sizing%20with%20Inheritance
+------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 
 /* Global Styles
 ------------------------------------- */
@@ -16,6 +27,7 @@ body {
 img {
   width: 300px;
 }
+
 a:hover {
   text-decoration: none; /* remove default underline */
 }
@@ -82,9 +94,22 @@ h2 {
   https://getbootstrap.com/docs/5.0/components/buttons/ */
 }
 
+.project-item img {
+  float: left;
+  /* padding-left chosen with guidande from bootstrap px-3
+  https://getbootstrap.com/docs/5.0/utilities/spacing/#:~:text=Copy-,%24spacer%3A%201rem%3B,-%24spacers%3A%20(%0A%20%200%3A%200 */
+  padding: 1rem;
+}
+
+.project-item {
+  /* overflow: hidden; */
+  display: flow-root;
+  border-bottom: 1px dashed var(--secondary-color);
+}
+
 /* Work Experience
 ------------------------------------- */
-.work-experience{
+.work-experience {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
