@@ -168,6 +168,17 @@ h2 {
   color: var(--secondary-link-color);
 }
 
+.education {
+  background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-right: 5rem;
+}
+
+.education section {
+  width: 65%;
+}
+
 /* Contact Info
 ------------------------------------- */
 .contact-info {
@@ -198,8 +209,8 @@ h2 {
 
 /* Construction Styles
 ------------------------------------- */
-/* html {
-  border: #ff33cc 5px solid;
+html {
+  /* border: #ff33cc 5px solid; */
 }
 
 body {
@@ -209,4 +220,4 @@ body {
 h1, h2, h3, p, section, ul, .btn, img, header, footer {
   border: lime 3px solid;
   background-color: hsla(120, 100%, 50%, 0.2);
-} */
+}
