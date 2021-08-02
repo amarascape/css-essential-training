@@ -35,7 +35,8 @@ a:hover {
 /* in effect, this is the actual content for a section of the page.
 it should be center aligned and not span the entire width of the page.  */
 .content-wrap {
-  width: 900px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
 }
 
