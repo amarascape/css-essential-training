@@ -26,6 +26,9 @@ body {
 
 img {
   width: 300px;
+  padding: 1rem;
+  /* padding-left chosen with guidande from bootstrap px-3
+  https://getbootstrap.com/docs/5.0/utilities/spacing/#:~:text=Copy-,%24spacer%3A%201rem%3B,-%24spacers%3A%20(%0A%20%200%3A%200 */
 }
 
 a:hover {
@@ -100,17 +103,7 @@ h1, h2 {
   https://getbootstrap.com/docs/5.0/components/buttons/ */
 }
 
-.project-item img {
-  float: left;
-  /* padding-left chosen with guidande from bootstrap px-3
-  https://getbootstrap.com/docs/5.0/utilities/spacing/#:~:text=Copy-,%24spacer%3A%201rem%3B,-%24spacers%3A%20(%0A%20%200%3A%200 */
-  padding: 1rem;
-}
 
-.project-item {
-  /* overflow: hidden; */
-  display: flow-root;
-}
 
 .projects.divider section {
   border-bottom: 1px dashed var(--secondary-color);
@@ -209,6 +202,13 @@ h1, h2 {
   .education div {
     padding-right: 19rem;
   }
+  .project-item img {
+    float: left;
+  }
+  .project-item {
+    /* overflow: hidden; */
+    display: flow-root;
+  }
 }
 
 @media screen and (max-width: 700px){
@@ -236,8 +236,6 @@ h1, h2 {
     padding-right: 1rem;
   }
 }
-
-
 
 /* Construction Styles
 ------------------------------------- */
