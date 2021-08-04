@@ -55,14 +55,6 @@ h1, h2 {
   font-weight: 400;
 }
 
-h1 {
-  font-size: 6.25rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
 .item-details h3 + p {
   /* this combination is used in Work Experience
   and education */
@@ -141,12 +133,6 @@ h2 {
   color: var(--primary-link-color);
 }
 
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr; /*second column will be twice the size of the first column */
-  column-gap: 16px;
-}
-
 .work-experience.divider section {
   border-bottom: 1px dashed var(--primary-color);
   padding: 2rem 0;
@@ -172,11 +158,6 @@ h2 {
   background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
   background-size: cover;
   background-position: bottom center;
-  padding-right: 5rem;
-}
-
-.education section {
-  width: 65%;
 }
 
 /* Contact Info
@@ -197,14 +178,65 @@ h2 {
 }
 
 .contact-list.flex-parent {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .contact-list a {
   display: inline-block; /* makes it so the padding gives the user more space to click/tap */
   padding: 1rem;
 }
+
+/* Responsive Design
+------------------------------------- */
+@media screen and (min-width: 700px){
+  /** for sizes 700px and larger */
+  h1 {
+    font-size: 6.25rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /*second column will be twice the size of the first column */
+    column-gap: 16px;
+  }
+  .contact-list.flex-parent {
+    display: flex;
+    justify-content: center;
+  }
+  .education div {
+    padding-right: 19rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+  /** for sizes 699px and smaller */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .contact-info a {
+    padding: 0.25rem;
+  }
+  .education div {
+    padding-right: 8rem;
+  }
+}
+
+@media screen and (max-width: 350px){
+  /** for sizes 300px and smaller */
+  img {
+    width: 210px;
+  }
+  .education div {
+    padding-right: 1rem;
+  }
+}
+
 
 
 /* Construction Styles
