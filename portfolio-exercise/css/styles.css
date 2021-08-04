@@ -182,6 +182,17 @@ h1, h2 {
 
 /* Responsive Design
 ------------------------------------- */
+@media screen and (min-width: 780px){
+  /** for sizes 780 and larger */
+  .project-item img {
+    float: left;
+  }
+  .project-item {
+    /* overflow: hidden; */
+    display: flow-root;
+  }
+}
+
 @media screen and (min-width: 700px){
   /** for sizes 700px and larger */
   h1 {
@@ -201,13 +212,6 @@ h1, h2 {
   }
   .education div {
     padding-right: 19rem;
-  }
-  .project-item img {
-    float: left;
-  }
-  .project-item {
-    /* overflow: hidden; */
-    display: flow-root;
   }
 }
 
