@@ -241,15 +241,11 @@ h1, h2 {
 
 /* Construction Styles
 ------------------------------------- */
-html {
-  /* border: #ff33cc 5px solid; */
-}
-
 body {
-  border: yellow 5px solid;
+  /* border: yellow 5px solid; */
 }
 
 h1, h2, h3, p, section, ul, .btn, img, header, footer {
-  border: lime 3px solid;
-  background-color: hsla(120, 100%, 50%, 0.2);
+  /* border: lime 3px solid; */
+  /* background-color: hsla(120, 100%, 50%, 0.2); */
 }
